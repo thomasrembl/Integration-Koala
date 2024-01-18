@@ -1,0 +1,133 @@
+:root {
+  --title-color: #084e28;
+  --h1-color: #47b848;
+  --text-color: #4f5153;
+  --dark-text-color: #19233c;
+  --green-text-color: #1c8d4f;
+  --btn-1-color: #88cb8c;
+  --btn-2-color: #dde6ec;
+  --btn-1-text-color: #040a08;
+  --light-blue: #7b8a9a;
+
+  --h1-font-size: 34px;
+  --h2-font-size: 28px;
+  --h3-font-size: 24px;
+  --Normal-font-size: 16px;
+  --litle-font-size: 14px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  font-size: var(--Normal-font-size);
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  color: var(--h1-color);
+}
+h2 {
+  font-size: var(--h2-font-size);
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  color: var(--title-color);
+}
+h3 {
+  font-size: var(--h3-font-size);
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  color: var(--btn-1-text-color);
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: var(--Normal-font-size);
+}
+
+body {
+  margin-left: 125px;
+  margin-right: 125px;
+}
+
+#green-line {
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, var(--btn-1-color), #b0d78a);
+}
+
+#grey-line {
+  width: 100%;
+  height: 2px;
+  background: var(--btn-2-color);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+.circle-1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 600px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.round-1 {
+  z-index: -1;
+  position: absolute;
+  height: 880px;
+  width: 880px;
+  background: #eaf1f4;
+  border-radius: 880px;
+  right: -320px;
+  top: -400px;
+}
+.circle-2 {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 800px;
+  overflow: hidden;
+}
+.round-2 {
+  z-index: -1;
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  background: #eaf1f4;
+  border-radius: 880px;
+  left: -200px;
+  top: 200px;
+}
+
+.circle-3 {
+  z-index: -1;
+  position: absolute;
+  top: -200px;
+  right: -125px;
+  width: 500px;
+  height: 800px;
+  overflow: hidden;
+}
+.round-3 {
+  z-index: -1;
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  background: #eaf1f4;
+  border-radius: 880px;
+  right: -300px;
+  top: 0;
+}

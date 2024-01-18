@@ -1,0 +1,321 @@
+.first {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+}
+
+.first-main {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 50px;
+  overflow: hidden;
+}
+
+.first-main-left h1 {
+  margin-bottom: 45px;
+}
+.first-main-left-text {
+  margin-bottom: 75px;
+}
+
+.first-main-right img {
+  width: 550px;
+}
+.main-left-btn {
+  display: flex;
+  gap: 45px;
+}
+.first-main-bottom {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.first-main-bottom img {
+  height: 60px;
+  filter: grayscale(100%);
+}
+#green-line {
+  margin-top: 50px;
+}
+.second {
+  margin-top: 200px;
+  position: relative;
+}
+.second-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  box-shadow: 0px 0px 3.8px rgba(0, 0, 0, 0.039),
+    0px 0px 9.2px rgba(0, 0, 0, 0.057), 0px 0px 17.4px rgba(0, 0, 0, 0.07),
+    0px 0px 31px rgba(0, 0, 0, 0.083), 0px 0px 58.1px rgba(0, 0, 0, 0.101),
+    0px 0px 139px rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+  padding: 30px 140px;
+  margin-bottom: 150px;
+  background: white;
+}
+.second-card-title > h2:nth-child(1) {
+  color: var(--title-color);
+}
+.second-card-title > h2:nth-child(2) {
+  color: var(--h1-color);
+}
+.second-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.second-card-text > p:nth-child(2) {
+  font-weight: 600;
+}
+.third {
+  margin: 200px 0;
+}
+.third-card {
+  width: 100%;
+  position: relative;
+  border: 2px solid var(--btn-2-color);
+  border-radius: 10px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.third-card-quot {
+  position: absolute;
+  background-color: white;
+  padding: 0 20px;
+  top: -25px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.third-card-quot img {
+  height: 50px;
+}
+.third-card-left img,
+.third-card-right img {
+  width: 30px;
+}
+.third-card-left {
+  margin-left: 50px;
+}
+.third-card-content {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.third-card-content-left {
+  width: 80%;
+  text-align: justify;
+}
+
+.third-card-content-left > p:nth-child(1) {
+  margin-bottom: 15px;
+}
+
+.third-card-content-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.third-card-content-right img {
+  height: 80px;
+  width: 80px;
+  border-radius: 80px;
+  margin-bottom: 10px;
+}
+.third-card-right {
+  margin-right: 50px;
+}
+.fourth {
+  display: flex;
+  justify-content: space-between;
+  margin: 200px 0;
+}
+
+.fourth-leftCard {
+  width: 25%;
+}
+.fourth-leftCard > p:nth-child(2) {
+  font-size: var(--litle-font-size);
+  margin-top: 30px;
+}
+.fourth-leftCard > p:nth-child(3) {
+  margin-top: 20px;
+}
+
+.fourth-card {
+  width: 23%;
+  padding: 20px;
+  box-shadow: 0px 0px 3.8px rgba(0, 0, 0, 0.017),
+    0px 0px 9.2px rgba(0, 0, 0, 0.024), 0px 0px 17.4px rgba(0, 0, 0, 0.03),
+    0px 0px 31px rgba(0, 0, 0, 0.036), 0px 0px 58.1px rgba(0, 0, 0, 0.043),
+    0px 0px 139px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fourth-card > p:nth-child(2) {
+  font-size: var(--litle-font-size);
+}
+.fifth {
+  display: flex;
+  justify-content: space-between;
+  margin: 200px 0;
+}
+.fifth-card-left,
+.fifth-card-right {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0px 0px 3.8px rgba(0, 0, 0, 0.017),
+    0px 0px 9.2px rgba(0, 0, 0, 0.024), 0px 0px 17.4px rgba(0, 0, 0, 0.03),
+    0px 0px 31px rgba(0, 0, 0, 0.036), 0px 0px 58.1px rgba(0, 0, 0, 0.043),
+    0px 0px 139px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  height: 300px;
+  justify-content: space-between;
+}
+
+.fifth-card-left-container-middle img {
+  width: 20%;
+  filter: grayscale(100%);
+}
+.fifth-card-right-container-middle img {
+  width: 30%;
+  filter: grayscale(100%);
+}
+.fifth-card-right-container-middle,
+.fifth-card-left-container-middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+.fifth-card-right-container-right img,
+.fifth-card-right-container-left img,
+.fifth-card-left-container-right img,
+.fifth-card-left-container-left img {
+  height: 20px;
+}
+
+.fifth-card-right-container,
+.fifth-card-left-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sixth {
+  margin-top: 200px;
+}
+.sixth-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  box-shadow: 0px 0px 3.8px rgba(0, 0, 0, 0.039),
+    0px 0px 9.2px rgba(0, 0, 0, 0.057), 0px 0px 17.4px rgba(0, 0, 0, 0.07),
+    0px 0px 31px rgba(0, 0, 0, 0.083), 0px 0px 58.1px rgba(0, 0, 0, 0.101),
+    0px 0px 139px rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+  padding: 30px 140px;
+  margin-bottom: 150px;
+}
+.sixth-card-title > h2:nth-child(1) {
+  color: var(--title-color);
+}
+.sixth-card-title > h2:nth-child(2) {
+  color: var(--h1-color);
+}
+.sixth-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 60%;
+}
+
+.seventh {
+  margin: 200px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.seventh-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.seventh-left > p:nth-child(2) {
+  color: var(--btn-1-text-color);
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.seventh-left > p:nth-child(3) {
+  width: 80%;
+}
+.seventh-left-container {
+  display: flex;
+  margin-top: 80px;
+  gap: 40px;
+}
+.seventh-right-card-tag img {
+  width: 15px;
+}
+
+.seventh-right {
+  display: flex;
+  gap: 40px;
+}
+
+.seventh-right-card {
+  padding: 20px;
+  box-shadow: 0px 0px 3.8px rgba(0, 0, 0, 0.039),
+    0px 0px 9.2px rgba(0, 0, 0, 0.057), 0px 0px 17.4px rgba(0, 0, 0, 0.07),
+    0px 0px 31px rgba(0, 0, 0, 0.083), 0px 0px 58.1px rgba(0, 0, 0, 0.101),
+    0px 0px 139px rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+  width: 270px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.seventh-right-card-tag {
+  cursor: pointer;
+  display: flex;
+  background-color: var(--btn-2-color);
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.seventh-right-card-img {
+  width: 230px;
+  height: 120px;
+}
+.seventh-right-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.seventh-right-card-title h3 {
+  font-size: 20px;
+}

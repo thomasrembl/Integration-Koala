@@ -1,0 +1,29 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     class="svg-snoweb svg-theme-dark"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     viewBox="0 0 100 100"
+     preserveAspectRatio="xMidYMid meet"
+>
+<defs>
+    <style>
+        
+            
+            
+            
+        
+
+
+
+        .svg-stroke-primary {
+            stroke: #040a08;
+        }
+    </style>
+</defs>
+    <path d="M61.2,30.8,35.9,56.1A7.7,7.7,0,0,0,46.8,67L71.5,41.6A15.4,15.4,0,1,0,49.7,19.9L25,45.2A23.1,23.1,0,0,0,57.7,77.9L81.8,53.8"
+      fill="none" class="svg-stroke-primary" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+
+</svg>
